@@ -7,7 +7,7 @@ const API_URL = 'https://api.openai.com/v1/chat/completions';
 const client = new OpenAI({
   baseURL: "https://openrouter.ai/api/v1",
   apiKey: API_KEY,
-  dangerouslyAllowBrowser: true
+  
 });
 export const generateQuiz = async (topic, difficulty = 'medium', count = 5) => {
   try {
