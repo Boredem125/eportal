@@ -2,7 +2,7 @@
 import axios from 'axios';
 import OpenAI from "openai";
 
-const API_KEY = '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';
+const API_KEY = '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';
 const API_URL = 'https://api.openai.com/v1/chat/completions';
 const client = new OpenAI({
   baseURL: "https://openrouter.ai/api/v1",
