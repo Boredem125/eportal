@@ -6,7 +6,7 @@ import OpenAI from "openai";
 const API_URL = 'https://api.openai.com/v1/chat/completions';
 const client = new OpenAI({
   baseURL: "https://openrouter.ai/api/v1",
-  apiKey: process.env.API_KEY
+  apiKey: process.env.API_KEY,
   dangerouslyAllowBrowser: true
   
 });
